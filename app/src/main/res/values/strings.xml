@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Countries List</string>
+    <string name="loading">Loading countries...</string>
+    <string name="error_loading">Error loading countries. Please try again.</string>
+    <string name="retry">Retry</string>
+</resources>
