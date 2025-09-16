@@ -4,20 +4,21 @@ A robust Android application that displays a comprehensive list of countries fet
 
 ## 📱 Screenshots
 
-### Portrait Mode - Error Handling
-![Portrait Mode Screenshot](screenshots/portrait_screenshot.png)
+### Error Handling State
+![Error Handling Screenshot](screenshots/current_state.png)
 
 *The app demonstrates robust error handling when network requests fail, displaying a clear error message with retry functionality.*
 
-### Landscape Mode - Error Handling
-![Landscape Mode Screenshot](screenshots/landscape_screenshot.png)
+### Success - Countries List Display
+![Countries List Screenshot](screenshots/fixed_app_final.png)
 
-*The app maintains full functionality and proper layout in landscape orientation, with error handling working seamlessly across orientations.*
+*The app successfully displays a comprehensive list of countries with clean, card-based layout showing country name, region, capital, and country code.*
 
-### Retry Functionality
-![Retry Test Screenshot](screenshots/retry_test.png)
-
-*The retry button functionality is working correctly, allowing users to attempt the network request again after a failure.*
+### App Features Demonstrated
+- **Clean UI Design**: Material Design with purple theme and card-based layout
+- **Comprehensive Data**: Shows country name, region, capital, and country code
+- **Smooth Scrolling**: Efficient RecyclerView implementation
+- **Error Recovery**: Graceful error handling with retry functionality
 
 ## ✨ Features
 
@@ -343,11 +344,13 @@ val httpClient = OkHttpClient.Builder()
 
 ### **Manual Testing Results**
 - ✅ **App Launch**: Successfully launches and displays UI
+- ✅ **Countries List Display**: App successfully loads and displays countries with proper data
 - ✅ **Error Handling**: Gracefully handles network failures with clear error messages
 - ✅ **Retry Functionality**: Retry button works correctly for failed requests
 - ✅ **Device Rotation**: App maintains state and functionality in both orientations
 - ✅ **UI Responsiveness**: Smooth transitions and proper layout adaptation
-- ✅ **Loading States**: Proper loading indicators during network requests
+- ✅ **Loading States**: Proper loading indicators during data loading
+- ✅ **Data Display**: Clean card-based layout showing country name, region, capital, and code
 
 ## 🚀 Performance Optimizations
 
