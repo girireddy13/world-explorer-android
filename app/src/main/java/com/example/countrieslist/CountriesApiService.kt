@@ -8,12 +8,12 @@ import okhttp3.logging.HttpLoggingInterceptor
 import java.util.concurrent.TimeUnit
 
 interface CountriesApiService {
-    @GET("peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json")
+    @GET("v3.1/all")
     suspend fun getCountries(): List<Country>
 }
 
 object CountriesApiClient {
-    private const val BASE_URL = "https://gist.githubusercontent.com/"
+    private const val BASE_URL = "https://restcountries.eu/"
     
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY

@@ -9,7 +9,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
     
@@ -20,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnRetry: Button
     
     private lateinit var countriesAdapter: CountriesAdapter
-    private val apiService = CountriesApiClient.apiService
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         
         lifecycleScope.launch {
             try {
-                val countries = apiService.getCountries()
+                val countries = loadCountriesFromAssets()
                 if (countries.isNotEmpty()) {
                     countriesAdapter.updateCountries(countries)
                     showCountries()
@@ -66,6 +70,17 @@ class MainActivity : AppCompatActivity() {
             } catch (e: Exception) {
                 showError("Error loading countries: ${e.message}")
             }
+        }
+    }
+    
+    private suspend fun loadCountriesFromAssets(): List<Country> = withContext(Dispatchers.IO) {
+        try {
+            val json = assets.open("countries.json").bufferedReader().use { it.readText() }
+            val gson = Gson()
+            val listType = object : TypeToken<List<Country>>() {}.type
+            gson.fromJson(json, listType)
+        } catch (e: IOException) {
+            emptyList()
         }
     }
     

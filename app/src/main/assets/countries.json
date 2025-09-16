@@ -1,0 +1,128 @@
+[
+  {
+    "name": {
+      "common": "Afghanistan",
+      "official": "Islamic Republic of Afghanistan"
+    },
+    "region": "Asia",
+    "cca2": "AF",
+    "capital": ["Kabul"]
+  },
+  {
+    "name": {
+      "common": "Albania",
+      "official": "Republic of Albania"
+    },
+    "region": "Europe",
+    "cca2": "AL",
+    "capital": ["Tirana"]
+  },
+  {
+    "name": {
+      "common": "Algeria",
+      "official": "People's Democratic Republic of Algeria"
+    },
+    "region": "Africa",
+    "cca2": "DZ",
+    "capital": ["Algiers"]
+  },
+  {
+    "name": {
+      "common": "Argentina",
+      "official": "Argentine Republic"
+    },
+    "region": "Americas",
+    "cca2": "AR",
+    "capital": ["Buenos Aires"]
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "region": "Oceania",
+    "cca2": "AU",
+    "capital": ["Canberra"]
+  },
+  {
+    "name": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    },
+    "region": "Americas",
+    "cca2": "BR",
+    "capital": ["Brasília"]
+  },
+  {
+    "name": {
+      "common": "Canada",
+      "official": "Canada"
+    },
+    "region": "Americas",
+    "cca2": "CA",
+    "capital": ["Ottawa"]
+  },
+  {
+    "name": {
+      "common": "China",
+      "official": "People's Republic of China"
+    },
+    "region": "Asia",
+    "cca2": "CN",
+    "capital": ["Beijing"]
+  },
+  {
+    "name": {
+      "common": "France",
+      "official": "French Republic"
+    },
+    "region": "Europe",
+    "cca2": "FR",
+    "capital": ["Paris"]
+  },
+  {
+    "name": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    },
+    "region": "Europe",
+    "cca2": "DE",
+    "capital": ["Berlin"]
+  },
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India"
+    },
+    "region": "Asia",
+    "cca2": "IN",
+    "capital": ["New Delhi"]
+  },
+  {
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "region": "Asia",
+    "cca2": "JP",
+    "capital": ["Tokyo"]
+  },
+  {
+    "name": {
+      "common": "United Kingdom",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "region": "Europe",
+    "cca2": "GB",
+    "capital": ["London"]
+  },
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "region": "Americas",
+    "cca2": "US",
+    "capital": ["Washington, D.C."]
+  }
+]

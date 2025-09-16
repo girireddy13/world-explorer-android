@@ -34,9 +34,9 @@ class CountriesAdapter : RecyclerView.Adapter<CountriesAdapter.CountryViewHolder
         private val tvCountryCode: TextView = itemView.findViewById(R.id.tvCountryCode)
         
         fun bind(country: Country) {
-            tvCountryName.text = country.name
+            tvCountryName.text = country.name.common
             tvRegion.text = country.region
-            tvCapital.text = country.capital
+            tvCapital.text = country.capital?.firstOrNull() ?: "N/A"
             tvCountryCode.text = country.code
         }
     }
