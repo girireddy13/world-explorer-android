@@ -1,8 +1,8 @@
-# 🌍 Android Countries List App
+#  Android Countries List App
 
 A robust Android application that displays a comprehensive list of countries fetched from a JSON API. Built with modern Android development practices, featuring MVVM architecture, comprehensive error handling, device rotation support, and extensive test coverage.
 
-## 📱 Screenshots
+##  Screenshots
 
 ### Error Handling State
 ![Error Handling Screenshot](screenshots/current_state.png)
@@ -20,15 +20,15 @@ A robust Android application that displays a comprehensive list of countries fet
 - **Smooth Scrolling**: Efficient RecyclerView implementation
 - **Error Recovery**: Graceful error handling with retry functionality
 
-## ✨ Features
+##  Features
 
-### 🏗️ **Architecture & Design**
+###  **Architecture & Design**
 - **MVVM Pattern**: Clean separation of concerns without dependency injection frameworks
 - **Material Design**: Modern UI following Google's Material Design guidelines
 - **Responsive Layout**: Optimized for both portrait and landscape orientations
 - **Card-based UI**: Clean, modern card layout for country information
 
-### 🌐 **Network & Data**
+###  **Network & Data**
 - **RESTful API Integration**: Fetches data from external JSON API
 - **Retrofit**: Modern HTTP client for network operations
 - **Gson**: Efficient JSON parsing and serialization
@@ -42,19 +42,19 @@ A robust Android application that displays a comprehensive list of countries fet
 - **Malformed JSON Handling**: Robust parsing with error recovery
 - **Loading States**: Clear loading indicators during data fetching
 
-### 🔄 **Device Rotation Support**
+### **Device Rotation Support**
 - **Configuration Changes**: Handles orientation changes without activity recreation
 - **State Preservation**: Maintains data and UI state during rotation
 - **Smooth Transitions**: Seamless user experience across orientations
 
-### 🧪 **Testing & Quality**
+###  **Testing & Quality**
 - **Unit Tests**: 12 comprehensive unit tests covering all components
 - **Integration Tests**: UI tests using Espresso framework
 - **Rotation Tests**: Specific tests for device orientation handling
 - **Mock Testing**: API service testing with MockWebServer
 - **Test Coverage**: 100% coverage of critical functionality
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 ### **Core Technologies**
 - **Language**: Kotlin
@@ -85,7 +85,7 @@ testImplementation 'com.squareup.okhttp3:mockwebserver:4.12.0'
 androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -159,7 +159,7 @@ app/
 ./gradlew check
 ```
 
-## 🎯 Key Features Implementation
+##  Key Features Implementation
 
 ### **1. MVVM Architecture**
 ```kotlin
@@ -245,7 +245,7 @@ fun shouldDisplayCountriesListAfterLoading() {
 }
 ```
 
-## 📊 API Integration
+##  API Integration
 
 ### **Data Source**
 - **API Endpoint**: `https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json`
@@ -274,7 +274,7 @@ fun shouldDisplayCountriesListAfterLoading() {
 ]
 ```
 
-## 🎨 UI/UX Design
+##  UI/UX Design
 
 ### **Design Principles**
 - **Material Design**: Following Google's Material Design guidelines
@@ -295,7 +295,7 @@ fun shouldDisplayCountriesListAfterLoading() {
 - **ConstraintLayout**: Flexible, responsive layouts
 - **Material Components**: Consistent design language
 
-## 🔧 Configuration
+##  Configuration
 
 ### **Build Configuration**
 ```gradle
@@ -324,7 +324,7 @@ val httpClient = OkHttpClient.Builder()
     .build()
 ```
 
-## 🧪 Testing Strategy
+##  Testing Strategy
 
 ### **Unit Tests (12 tests)**
 - **CountryTest**: Data model validation
@@ -343,16 +343,16 @@ val httpClient = OkHttpClient.Builder()
 - **Error Scenarios**: 100% coverage
 
 ### **Manual Testing Results**
-- ✅ **App Launch**: Successfully launches and displays UI
-- ✅ **Countries List Display**: App successfully loads and displays countries with proper data
-- ✅ **Error Handling**: Gracefully handles network failures with clear error messages
-- ✅ **Retry Functionality**: Retry button works correctly for failed requests
-- ✅ **Device Rotation**: App maintains state and functionality in both orientations
-- ✅ **UI Responsiveness**: Smooth transitions and proper layout adaptation
-- ✅ **Loading States**: Proper loading indicators during data loading
-- ✅ **Data Display**: Clean card-based layout showing country name, region, capital, and code
+- **App Launch**: Successfully launches and displays UI
+-  **Countries List Display**: App successfully loads and displays countries with proper data
+-  **Error Handling**: Gracefully handles network failures with clear error messages
+- **Retry Functionality**: Retry button works correctly for failed requests
+- **Device Rotation**: App maintains state and functionality in both orientations
+- **UI Responsiveness**: Smooth transitions and proper layout adaptation
+- **Loading States**: Proper loading indicators during data loading
+-  **Data Display**: Clean card-based layout showing country name, region, capital, and code
 
-## 🚀 Performance Optimizations
+## Performance Optimizations
 
 ### **Memory Management**
 - **View Binding**: Efficient view access
@@ -366,7 +366,7 @@ val httpClient = OkHttpClient.Builder()
 - **Error Recovery**: Graceful failure handling
 - **Caching**: Intelligent data caching
 
-## 📱 Device Compatibility
+##  Device Compatibility
 
 ### **Supported Devices**
 - **Minimum SDK**: API 24 (Android 7.0)
@@ -380,7 +380,7 @@ val httpClient = OkHttpClient.Builder()
 - **Orientations**: Portrait, landscape
 - **Android Versions**: 7.0, 8.0, 9.0, 10, 11, 12, 13, 14
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 ### **Security Measures**
 - **HTTPS Only**: All network requests use HTTPS
@@ -393,7 +393,7 @@ val httpClient = OkHttpClient.Builder()
 - **Local Storage**: Minimal local data storage
 - **Network Security**: Secure API communication
 
-## 🐛 Known Issues & Limitations
+## Known Issues & Limitations
 
 ### **Current Limitations**
 - **Offline Support**: No offline data caching
@@ -408,7 +408,7 @@ val httpClient = OkHttpClient.Builder()
 - **Dark Mode**: Implement dark theme
 - **Accessibility**: Enhanced accessibility features
 
-## 🤝 Contributing
+##  Contributing
 
 ### **Development Guidelines**
 1. **Code Style**: Follow Kotlin coding conventions
@@ -423,27 +423,26 @@ val httpClient = OkHttpClient.Builder()
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **cscharanr**
 - GitHub: [@cscharanr](https://github.com/cscharanr)
 - Repository: [android-countries-list](https://github.com/cscharanr/android-countries-list)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google**: For Android development tools and Material Design
 - **Square**: For Retrofit and OkHttp libraries
 - **JetBrains**: For Kotlin programming language
 - **Android Community**: For best practices and guidelines
 
-## 📞 Support
+## Support
 
 For support, please open an issue in the [GitHub repository](https://github.com/cscharanr/android-countries-list/issues) or contact the maintainer.
 
 ---
 
-**Built with ❤️ using modern Android development practices**
