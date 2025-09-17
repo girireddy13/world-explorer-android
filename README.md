@@ -429,8 +429,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ##  Author
 
-**cscharanr**
-- GitHub: [@cscharanr](https://github.com/cscharanr)
+**Girish**
+- GitHub: [@girireddy13](https://github.com/girireddy13/world-explorer-android)
 - Repository: [android-countries-list](https://github.com/cscharanr/android-countries-list)
 
 ##  Acknowledgments
