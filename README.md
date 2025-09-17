@@ -132,7 +132,7 @@ app/
 ### **Installation**
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/cscharanr/android-countries-list.git
+   git clone https://github.com/girireddy13/android-countries-list.git
    cd android-countries-list
    ```
 
@@ -431,7 +431,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Girish**
 - GitHub: [@girireddy13](https://github.com/girireddy13/world-explorer-android)
-- Repository: [android-countries-list](https://github.com/cscharanr/android-countries-list)
+- Repository: [android-countries-list](https://github.com/girireddy13/android-countries-list)
 
 ##  Acknowledgments
 
@@ -442,7 +442,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For support, please open an issue in the [GitHub repository](https://github.com/cscharanr/android-countries-list/issues) or contact the maintainer.
+For support, please open an issue in the [GitHub repository](https://github.com/girireddy13/world-explorer-android) or contact the maintainer.
 
 ---
 
