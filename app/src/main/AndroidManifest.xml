@@ -12,11 +12,11 @@
         android:label="@string/app_name"
         android:roundIcon="@android:drawable/ic_menu_myplaces"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CountriesList"
+        android:theme="@style/Theme.WorldExplorer"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".WorldExplorerActivity"
             android:exported="true"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait">

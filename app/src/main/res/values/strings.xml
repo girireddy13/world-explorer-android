@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Countries List</string>
-    <string name="loading">Loading countries...</string>
-    <string name="error_loading">Error loading countries. Please try again.</string>
-    <string name="retry">Retry</string>
+    <string name="app_name">World Explorer</string>
+    <string name="main_title">Discover Nations</string>
+    <string name="loading">Discovering amazing places...</string>
+    <string name="error_loading">Unable to explore nations at this moment. Please try again.</string>
+    <string name="retry">Explore Again</string>
+    <string name="nation_details">Nation Details</string>
+    <string name="capital_label">Capital City</string>
+    <string name="region_label">Continental Region</string>
 </resources>

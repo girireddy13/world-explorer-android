@@ -1,0 +1,137 @@
+[
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "region": "Americas",
+    "cca2": "US",
+    "capital": ["Washington, D.C."]
+  },
+  {
+    "name": {
+      "common": "United Kingdom",
+      "official": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    "region": "Europe",
+    "cca2": "GB",
+    "capital": ["London"]
+  },
+  {
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "region": "Asia",
+    "cca2": "JP",
+    "capital": ["Tokyo"]
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "region": "Oceania",
+    "cca2": "AU",
+    "capital": ["Canberra"]
+  },
+  {
+    "name": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    },
+    "region": "Europe",
+    "cca2": "DE",
+    "capital": ["Berlin"]
+  },
+  {
+    "name": {
+      "common": "France",
+      "official": "French Republic"
+    },
+    "region": "Europe",
+    "cca2": "FR",
+    "capital": ["Paris"]
+  },
+  {
+    "name": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    },
+    "region": "Americas",
+    "cca2": "BR",
+    "capital": ["Brasília"]
+  },
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India"
+    },
+    "region": "Asia",
+    "cca2": "IN",
+    "capital": ["New Delhi"]
+  },
+  {
+    "name": {
+      "common": "China",
+      "official": "People's Republic of China"
+    },
+    "region": "Asia",
+    "cca2": "CN",
+    "capital": ["Beijing"]
+  },
+  {
+    "name": {
+      "common": "Canada",
+      "official": "Canada"
+    },
+    "region": "Americas",
+    "cca2": "CA",
+    "capital": ["Ottawa"]
+  },
+  {
+    "name": {
+      "common": "Russia",
+      "official": "Russian Federation"
+    },
+    "region": "Europe",
+    "cca2": "RU",
+    "capital": ["Moscow"]
+  },
+  {
+    "name": {
+      "common": "South Africa",
+      "official": "Republic of South Africa"
+    },
+    "region": "Africa",
+    "cca2": "ZA",
+    "capital": ["Cape Town", "Pretoria", "Bloemfontein"]
+  },
+  {
+    "name": {
+      "common": "Mexico",
+      "official": "United Mexican States"
+    },
+    "region": "Americas",
+    "cca2": "MX",
+    "capital": ["Mexico City"]
+  },
+  {
+    "name": {
+      "common": "Italy",
+      "official": "Italian Republic"
+    },
+    "region": "Europe",
+    "cca2": "IT",
+    "capital": ["Rome"]
+  },
+  {
+    "name": {
+      "common": "Spain",
+      "official": "Kingdom of Spain"
+    },
+    "region": "Europe",
+    "cca2": "ES",
+    "capital": ["Madrid"]
+  }
+]
